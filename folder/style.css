@@ -59,7 +59,7 @@ nav #navbar {
   z-index: 999;
   background-color: #00bfff;
   position: absolute;
-top: 43px; left: 0.01px;
+top: 0px; left: 0.01px;
 }
 nav #navbar #nav {
   float: right;
