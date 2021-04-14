@@ -24,22 +24,22 @@ padding: 2%;
     }
 
 
-header ul {
+footer ul {
   list-style-type: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #005691;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #005691;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
-header li {
+footer li {
   float: left;
 }
 
-header li i {
+footer li i {
   display: block;
   color: white;
   text-align: center;
