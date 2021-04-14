@@ -1,0 +1,83 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #eee;
+
+}
+
+#test1 {
+background: #fff;
+width: 80%;
+margin: 0 auto;
+height: 100%;
+padding: 2%;
+}
+
+#test2 {
+    background: #606060;
+    width: 100%;
+    height: 300px;
+    background-image: url(), url(https://www.mymaldives.com.au/wp-content/uploads/sites/11/2016/12/Beach-Banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center, top left;
+    background-size: 300px, 100%;
+    }
+
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #005691;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header li {
+  float: left;
+}
+
+header li i {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.space {
+  margin-left: 0.6em;
+}
+
+nav #navbar {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 999;
+  background-color: #00bfff;
+  position: absolute;
+top: 43px; left: 0.01px;
+}
+nav #navbar #nav {
+  float: right;
+  padding-top: 15px;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 40px;
+}
+nav li a {
+  text-decoration: none;
+  color: #fafafa;
+}
+nav li a:hover {
+  color: #cbcbcb;
+}
+
+nav #logo {
+  float: left;
+}

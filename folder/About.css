@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+nav #navbar {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+    background-color: #00bfff;
+    position: fixed;
+  }
+
+  nav #navbar #nav {
+    float: right;
+    padding-top: 15px;
+  }
+
+  nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 40px;
+  }
+
+  nav li a {
+    text-decoration: none;
+    color: #fafafa;
+  }
+  
+  nav li a:hover {
+    color: #cbcbcb;
+  }
+  
+  nav #logo {
+    float: left;
+  }
