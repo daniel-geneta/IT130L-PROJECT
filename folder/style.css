@@ -1,9 +1,10 @@
 body {
   margin: 0px;
   padding: 0px;
-  background: #eee;
+  background: #ffffff;
   background-image: url(images/cool.gif);
   font-family: "Trebuchet MS", sans-serif;
+  background-repeat: no-repeat;
 }
 
 #test1 {
@@ -239,7 +240,7 @@ a {
 
 #etal {
   color: #000000;
-  font-family:courier;
+  font-family:Sans-serif;
   text-align: justify;
   background-image: url(images/S1.png), url(images/S2.png);
   background-position: center;
