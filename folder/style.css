@@ -2,6 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   background: #eee;
+  background-image: url(images/cool.gif);
   font-family: "Trebuchet MS", sans-serif;
 }
 
@@ -164,10 +165,16 @@ input, textarea {
 
 #rcorners2 {
   border-radius: 25px;
-  border: 2px solid #0000FF;
+  border: 3px solid #0000FF;
   padding: 20px; 
-  width: 200px;
-  height: 150px;  
+  width: 500px;
+  height: 200px;  
+
+}
+
+#rcorners2 b{
+
+  	font-size: 40px;
 }
 
 #rcorners2  p{
@@ -226,4 +233,24 @@ a {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+
+#etal {
+  color: #000000;
+  font-family:courier;
+  text-align: justify;
+  background-image: url(images/S1.png), url(images/S2.png);
+  background-position: center;
+  background-repeat: no-repeat, no-repeat;
+  padding: 100x;
+}
+
+
+
+#etal h1{
+  color: #000000;
+  font-family:courier;
+  text-align: center;
 }
