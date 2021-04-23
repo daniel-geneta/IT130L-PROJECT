@@ -61,6 +61,7 @@ nav #navbar {
   position: absolute;
   top: 0px;
   left: 0.01px;
+  border: 1px dashed #0000ff;
 }
 nav #navbar #nav {
   float: right;
@@ -76,7 +77,8 @@ nav li a {
   color: #fafafa;
 }
 nav li a:hover {
-  color: #cbcbcb;
+  color: #000000;
+  text-decoration: underline;
 }
 
 nav #logo {
@@ -89,8 +91,16 @@ form {
 
 fieldset {
   background-color: #eeeeee;
-  
   width: 50%;
+}
+
+fieldset img{
+  border: 1px solid #0000FF;
+}
+
+fieldset h3 {
+  text-shadow: 2px 1px;
+  color: #00bfff;
 }
 
 section {
@@ -106,8 +116,6 @@ section {
 .leftssspace {
   margin-left: 3%;
 }
-
-
 
 #inputtext {
   display: inline-block;
@@ -152,4 +160,70 @@ input, textarea {
 #container {
 	background-color: #000000;
 	border: 1px solid #0000FF;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #0000FF;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+#rcorners2  p{
+    color: #0000FF;
+	font-family:courier;
+	text-align: center;
+}
+
+a {
+  background-color: #0000F00
+}
+
+.dropdown {
+  float: right;
+  padding-right: 0.0000001px;
+  border: 1px dashed #0000ff;
+  color:#00bfff;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: 1px dashed #0000ff;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #00bfff;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #00bfff;
+  color: #ffffff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00bfff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #ffffff;
+  padding: 10px 16px;
+  text-decoration: underline;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #00bfff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
