@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<!-- ///////////////////////////////////////////////////// HEAD ///////////////////////////////////////////////////// -->
+    <head>
+        <title>YM's Laundry Station</title>
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="lightbox.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    </head>
+
+<!-- ////////////////////////////////////////////////////// BODY ////////////////////////////////////////////////////// -->
+    <body>
+<!-- ///////////////////////////////////////////////// NAVIGATION BAR ///////////////////////////////////////////////// -->
+        <nav>
+            <div class="navbar">
+            <img src="images/newlogologo.png" alt="logontn">
+            <h2 style="float: left; margin-left: 10px;">YM's Laundry Station</h2>
+            <a href="contact.html">CONTACT</a>
+            <div class="dropdown">
+                <button class="dropbtn">THE SHOP 
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                <a href="About.html">ABOUT</a>
+                <a href="faqs.html">FAQS</a>
+                </div>
+            </div>  
+                <a href="#gallery">GALLERY</a>
+                <a href="Services.html">SERVICES</a>
+                
+                <a href="main_page.html">HOME</a>
+            </div>
+        </nav>
+<!-- ////////////////////////////////////////////////////// FORM ////////////////////////////////////////////////////// -->
+
+        <div class="reservation">
+            <form method="post" action="mailto:_____________________________" autocomplete="on">
+                <fieldset>
+                    <legend>PERSONAL INFORMATION</legend>
+                    <br />
+                    First Name: <input type="text" name="first" size="10"  maxlength="10">
+                    &nbsp;Middle Name: <input type="text" name="middle" size="10"  maxlength="10">
+                    &nbsp;Last Name: <input type="text" name="surname" size="10"  maxlength="10">
+                    &nbsp;Name Suffix: <input type="text" name="suffix" size="3"  maxlength="5">
+                    <br />
+                    <br />
+                    <br />
+                    House No.: <input type="text" name="lot and block" size="10" maxlength="20">
+                    &nbsp;&nbsp;&nbsp;Street: <input type="text" name="street" size="10" maxlength="20">
+                    &nbsp;&nbsp;&nbsp;Subdivision/Village: <input type="text" name="subdv" size="10" maxlength="20">
+                    <br />
+                    <br />
+                    Barangay: <input type="text" name="brgy" size="10" maxlength="20">
+                    &nbsp;&nbsp;&nbsp;City: <input type="text" name="city" size="10" maxlength="20">
+                    &nbsp;&nbsp;&nbsp;<label for="region">Region: </label>
+                    <input type="text" name="region" id="region" list="region list">
+
+                    <datalist id="region list">
+                        <option>Region I</option>
+                        <option>Region II</option>
+                        <option>Region III</option>
+                        <option>Region IV-A</option>
+                        <option>Region IV-B</option>
+                        <option>Region V</option>
+                        <option>NCR</option>
+                        <option>CAR</option>
+                        <option>Region VI</option>
+                        <option>Region VII</option>
+                        <option>Region VIII</option>
+                        <option>Region IX</option>
+                        <option>Region X</option>
+                        <option>Region XI</option>
+                        <option>Region XII</option>
+                        <option>Region XIII</option>
+                        <option>BARMM</option>
+                    </datalist>
+                    <br />
+                    <br />
+                    <br />
+                    Telephone: <input type="text" name="area code code" size="3" maxlength="5">&nbsp;<input type="text" name="tel no." size="10" maxlength="20">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cellphone: <input type="text" name="country code" size="3" maxlength="5">&nbsp;<input type="text" name="cell no." size="15" maxlength="11">
+                    <br />
+                    <br />
+                    <br />
+                    Email Address: <input type="text" name="email" size="20" maxlength="25">
+                    <br />
+                    <br />
+                    <!-- INSERT COMMENT -->
+                </fieldset>
+
+                <br />
+                <br />
+                <br />
+                
+                <fieldset>
+                    <legend>OTHER CONTACT INFORMATION</legend>
+                    <br />
+                    First Name: <input type="text" name="first" size="10"  maxlength="10">
+                    &nbsp;Middle Name: <input type="text" name="middle" size="10"  maxlength="10">
+                    &nbsp;Last Name: <input type="text" name="surname" size="10"  maxlength="10">
+                    &nbsp;Name Suffix: <input type="text" name="suffix" size="3"  maxlength="5">
+                    <br />
+                    <br />
+                    <br />
+                    <select id="relation">
+                        <option>Father</option>
+                        <option>Mother</option>
+                        <option>Brother</option>
+                        <option>Sister</option>
+                        <option>Son</option>
+                        <option>Daughter</option>
+                        <option>Extended Family Member</option>
+                        <option>Other (Maid, etc.)</option>
+                    </select>
+                    <br />
+                    <br />
+                    <br />
+                    Telephone: <input type="text" name="area code code" size="3" maxlength="5">&nbsp;<input type="text" name="tel no." size="10" maxlength="20">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cellphone: <input type="text" name="country code" size="3" maxlength="5">&nbsp;<input type="text" name="cell no." size="15" maxlength="11">
+                    <br />
+                    <br />
+                    <br />
+                    Anything we should be aware of: <br />
+                    <textarea rows="5"   cols="120" id="other information"></textarea>
+                    <br />
+                    <br />
+                </fieldset>
+
+                <br />
+                <br />
+                <br />
+                
+
+                <fieldset>
+                    <legend>SERVICE INFORMATION</legend>
+                    <br />
+                    Date of Visit: <input type="date" name="visit">
+                    <br />
+                    <br />
+                    Weight: <input type="number" name="clothes weight" size="2" maxlength="3"> kg
+                    <br />
+                    <br />
+                    <br />
+                    Type: <br/>
+                    &nbsp;&nbsp;&nbsp;<input type="radio" name="type" value="question">Washing Machine<br />
+                    &nbsp;&nbsp;&nbsp;<input type="radio" name="type" value="question">Hand Washing<br />
+                    &nbsp;&nbsp;&nbsp;<input type="radio" name="type" value="question">Dry Cleaning<br />
+                    <br />
+                    <br />
+                    <br />
+                    Additional: <br />
+                    &nbsp;&nbsp;&nbsp;<input type="radio" name="additional" value="question">Folded<br />
+                    &nbsp;&nbsp;&nbsp;<input type="radio" name="additional" value="question">Ironed<br />
+                    <br />
+                    <br />
+                    <br />
+                    Notes: <br />
+                    <textarea rows="5"   cols="120" id="other information"></textarea>
+                    <br />
+                    <br />
+                </fieldset>
+
+                <br />
+                <br />
+                <br />
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+                
+                <br />
+                <br />
+            </form>
+
+    
+<!-- ////////////////////////////////////////////////////// FOOTER ////////////////////////////////////////////////////// -->
+
+    <footer>
+
+    </footer>
+</body>    
+</html>
