@@ -136,11 +136,9 @@ fieldset {
   background-color: #eeeeee;
   width: 50%;
 }
-
 fieldset img{
   border: 1px solid #0000FF;
 }
-
 fieldset h3 {
   text-shadow: 2px 1px;
   color: #00bfff;
@@ -173,12 +171,6 @@ input, textarea {
   font-family: Arial, FontAwesome;
 }
 
- input[type=submit], input[type=reset] {
-  background-color: #969696c2;
-  border: 1px solid #000000;
-  color: #000000;
-  padding: 16px 32px;
-  margin: 4px 2px;
 }
 
 #container h1 {
@@ -241,4 +233,12 @@ input, textarea {
 
 legend {
   text-align: left;
+}
+
+ input[type=submit], input[type=reset] {
+  background-color: #969696c2;
+  border: 1px solid #000000;
+  color: #000000;
+  padding: 20px 35px;
+  margin: 4px 2px;
 }
