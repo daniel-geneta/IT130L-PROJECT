@@ -78,10 +78,6 @@ body {
   display: block;
 }
 
-.shopinfo {
-
-}
-
 #test1 {
   background: #fff;
   width: 80%;
@@ -131,17 +127,17 @@ footer li i {
 form {
   margin-top: 7%;
 }
-/*
-fieldset {
+
+.serviceclothing {
   background-color: #eeeeee;
   width: 50%;
 }
 
-fieldset img{
+.serviceclothing img{
   border: 1px solid #0000FF;
 }
 
-fieldset h3 {
+.serviceclothing h3 {
   text-shadow: 2px 1px;
   color: #00bfff;
 }
@@ -171,14 +167,6 @@ section {
 
 input, textarea {
   font-family: Arial, FontAwesome;
-}
-
- input[type=submit], input[type=reset] {
-  background-color: #969696c2;
-  border: 1px solid #000000;
-  color: #000000;
-  padding: 16px 32px;
-  margin: 4px 2px;
 }
 
 #container h1 {
@@ -242,3 +230,11 @@ input, textarea {
 legend {
   text-align: left;
 }
+
+input[type=submit], input[type=reset] {
+ background-color: #969696c2;
+ border: 1px solid #000000;
+ color: #000000;
+ padding: 20px 35px;
+ margin: 4px 2px;
+} 
